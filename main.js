@@ -38,21 +38,21 @@ function stopVideo() {
 
 //5- update progress..
 function updateProgress() {
-    progress.value = (video.currentTime / video.duration) * 100;
+  progress.value = (video.currentTime / video.duration) * 100;
 
-    // Get the minutes
-    let mins = Math.floor(video.currentTime / 60);
-    if(mins < video.duration){
-      mins = '0' + String(mins);
-    }
-  
-    // Get Seconds
-    let secs = Math.floor(video.currentTime % 60);
-    if(secs < video.duration){
-      secs = '0' + String(secs);
-    }
-  
-    timestamp.innerHTML = `${mins}:${secs}`;
+  // Get the minutes
+  let mins = Math.floor(video.currentTime / 60);
+  if (mins < video.duration) {
+    mins = "0" + String(mins);
+  }
+
+  // Get Seconds
+  let secs = Math.floor(video.currentTime % 60);
+  if (secs < 10) {
+    secs = "0" + String(secs);
+  }
+
+  timestamp.innerHTML = `${mins}:${secs}`;
 }
 
 //Event Listeners..
