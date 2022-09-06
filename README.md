@@ -5,7 +5,7 @@ Playing around with video API,
 ## Live Demo
 [Custom Video Player](https://custom-video-player-steel.vercel.app/)
 
-Technologies used:
+## Technologies used:
 - HTML 
 - CSS 
 -Javascript.
