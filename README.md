@@ -2,10 +2,20 @@
 
 Playing around with video API,
 
-Technologies used:
-HTML, CSS and Javascript.
+## Live Demo
+[Custom Video Player](https://custom-video-player-steel.vercel.app/)
 
-Features:
-1- Play & pause
-2- update progress with time stamp
-3-full customized controls
+Technologies used:
+- HTML 
+- CSS 
+-Javascript.
+
+## Features:
+- Play & pause
+- update progress with time stamp
+-full customized controls
+
+
+### Site Capture
+
+<img src="https://user-images.githubusercontent.com/92605303/188531981-fb57a832-ce8c-4f2a-bcad-1129e4cfb384.png">
